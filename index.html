@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#videos" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projectos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
 
             </article> <!--fim article#video-->
 
-            <article id="skills"> <!--fim article#skills-->
+            <article id="skills"> 
                 <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
                 <div id="skills-container">
                     <div class="item">
@@ -135,9 +135,9 @@
                         </div>
                     </div>
                 </div>
-            </article>
+            </article> <!--fim article#skills-->
 
-            <article id="formacao"> <!--fim article#formacao-->
+            <article id="formacao"> 
 
                 <h2><i class="fa-solid fa-graduation-cap"> </i>Formações</h2>
 
@@ -145,18 +145,73 @@
                     <div class="curso">
                         <p class="periodo">1991 - 1994</p>
                         <h3 class="instituicao">Escola técnica carioca</h3>
+                        <p class="titulacao">Técnico em Informática</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">1995 - 2000</p>
+                        <h3 class="instituicao">Instituto Superior de Tecnologia</h3>
+                        <p class="titulacao">Bacharelado em Ciência da Computação</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">1995 - 2000</p>
+                        <h3 class="instituicao">Centro de Graduaçao de Professores</h3>
+                        <p class="titulacao">Licenciatura em Informática</p>
                     </div>
                 </div>
-            </article>
+            </article> <!--fim article#formacao-->
 
-            <article id="projectos"> <!--fim article#projectos-->
+            <article id="projectos"> 
                 <h2><i class="fa-solid fa-trowel-bricks"> </i>Projectos</h2>
-            </article>
+
+                <div id="projecto-container">
+                    <div class="projecto"> <!--Projecto 01--> 
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projecto 1" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projecto de Videos</h3>
+                            <p>Projecto construido ara treinar a inserção de videos no nosso site.</p>
+                            <details>
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dolor, voluptate quam quos dolorum non dolore adipisci blanditiis placeat libero animi nesciunt alias laborum consequuntur aut totam! Molestiae, nisi!</p>
+                            </details>
+
+                        </div>
+                    </div>
+
+                    <div class="projecto"> <!--Projecto 02--> 
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projecto 2" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projecto Corder</h3>
+                            <p>Projecto para treinar o efeito paralax em imagens.</p>
+                            <details>
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dolor, voluptate quam quos dolorum non dolore adipisci blanditiis placeat libero animi nesciunt alias laborum consequuntur aut totam! Molestiae, nisi!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                     <div class="projecto"> <!--Projecto 03--> 
+                        <img src="imagens/projeto-03-android.jpg" alt="Projecto 3" class="foto">
+                        <div class="projecto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Projecto Android</h3>
+                            <p>Projecto para treinar conteúdos e imagens dinâmicas.</p>
+                            <details>
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dolor, voluptate quam quos dolorum non dolore adipisci blanditiis placeat libero animi nesciunt alias laborum consequuntur aut totam! Molestiae, nisi!</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </article> <!--fim article#projectos-->
        </section>
     </main>
 
     <footer>
-
+        <p>Porfolio desenvolvimento por <strong>Victor Domingos</strong> em 2025</p>
     </footer>
 
     <script src="scripts/script.js"></script>
